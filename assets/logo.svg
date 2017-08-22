@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 160 160" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><radialGradient id="c" cx="35.06%" r="49.91%" fx="35.06%" fy="50%"><stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"/><stop stop-color="#EAEAEA" stop-opacity=".3" offset="100%"/></radialGradient><path id="a" d="M67.5 22.17A34.95 34.95 0 1 1 47.52 2.32l.06.04c.56.21 1.12.44 1.66.69l49.82 20.83c.52.22.77.81.58 1.33l-2.21 5.9c-.2.51-.78.79-1.3.62L67.5 22.17z"/><filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox"><feOffset dx="8" dy="6" in="SourceAlpha" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0" in="shadowInnerInner1"/></filter><mask id="e" width="99.71" height="69.9" x="0" y="0" fill="white"><use xlink:href="#a"/></mask><path id="b" d="M50.45 6H33v24a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-9H7.73l-1.66 9.04A2.49 2.49 0 0 1 3.7 32H1.9a1.6 1.6 0 0 1-1.65-1.96L4.66 6H1.99A2 2 0 0 1 0 4V2a2 2 0 0 1 2-2h57a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2.73l4.42 24.04A1.6 1.6 0 0 1 59.04 32h-1.81a2.5 2.5 0 0 1-2.37-1.96L53.2 21H37a2 2 0 0 1-2-2v-2c0-1.1.9-2 2-2h15.1l-1.65-9zM10.48 6l-1.65 9H27V6H10.48z"/><mask id="f" width="61" height="32" x="0" y="0" fill="white"><use xlink:href="#b"/></mask></defs><g fill="none" fill-rule="evenodd" transform="translate(34 36)"><path fill="#05BF85" d="M34.95 69.9A34.95 34.95 0 0 0 69.9 34.95c0-3.33-69.9-3.33-69.9 0A34.95 34.95 0 0 0 34.95 69.9z"/><ellipse cx="34.95" cy="34.95" fill="#06E29D" rx="34.95" ry="3.88"/><circle cx="29" cy="44" r="2" fill="#FFFFFF" fill-opacity=".4"/><circle cx="41.5" cy="53.5" r=".5" fill="#FFFFFF" fill-opacity=".4"/><circle cx="39.5" cy="47.5" r="1.5" fill="#FFFFFF" fill-opacity=".4"/><circle cx="24.5" cy="52.5" r="1.5" fill="#FFFFFF" fill-opacity=".4"/><circle cx="32" cy="51" r="1" fill="#FFFFFF" fill-opacity=".4"/><circle cx="45" cy="42" r="1" fill="#FFFFFF" fill-opacity=".4"/><use fill="url(#c)" xlink:href="#a"/><use fill="black" filter="url(#d)" xlink:href="#a"/><use stroke="#9C9C9C" stroke-opacity=".3" stroke-width="2" mask="url(#e)" xlink:href="#a"/><g fill="#414141" stroke="#131111" stroke-width="2" transform="translate(4 57)"><use mask="url(#f)" xlink:href="#b"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 85 85" style="enable-background:new 0 0 85 85;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#00A0E9;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#00A0E9;stroke-width:2;stroke-miterlimit:10;}
+	.st2{stroke:#00A0E9;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<line id="XMLID_5_" class="st0" x1="19" y1="31.9" x2="66.9" y2="32"/>
+<line id="XMLID_6_" class="st0" x1="19" y1="52.2" x2="66.9" y2="52.3"/>
+<line id="XMLID_8_" class="st0" x1="19" y1="45.3" x2="66.9" y2="45.4"/>
+<line id="XMLID_9_" class="st0" x1="19" y1="38.7" x2="66.9" y2="38.8"/>
+<line id="XMLID_3_" class="st0" x1="32.2" y1="17.6" x2="32.3" y2="65.6"/>
+<line id="XMLID_1_" class="st0" x1="39.6" y1="17.6" x2="39.7" y2="65.6"/>
+<line id="XMLID_4_" class="st0" x1="47" y1="17.6" x2="47.1" y2="65.6"/>
+<line id="XMLID_7_" class="st0" x1="54" y1="17.6" x2="54.1" y2="65.6"/>
+<rect id="XMLID_2_" x="25.8" y="25.1" class="st1" width="34.2" height="34.2"/>
+<g id="XMLID_10_">
+	<path id="XMLID_12_" class="st2" d="M46.1,50.4l-1.9-5h-7.2l-1.8,5h-1.7l6.4-16.8h1.6l6.4,16.8H46.1z M41,36.5
+		c-0.1-0.1-0.1-0.3-0.2-0.5s-0.1-0.4-0.1-0.7h0c0,0.3-0.1,0.5-0.2,0.7s-0.1,0.4-0.2,0.5L37.6,44h6.2L41,36.5z"/>
+	<path id="XMLID_15_" class="st2" d="M52.1,50.4h-1.6V33.5h1.6V50.4z"/>
+</g>
+<g id="XMLID_11_">
+</g>
+<g id="XMLID_17_">
+</g>
+<g id="XMLID_18_">
+</g>
+<g id="XMLID_19_">
+</g>
+<g id="XMLID_20_">
+</g>
+<g id="XMLID_21_">
+</g>
+</svg>
