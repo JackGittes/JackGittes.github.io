@@ -1,5 +1,5 @@
 ---
-title: About Blog
+title: Welcome to My Homepage
 feature_text: |
   ## Welcome
   A blog recording my daily thoughts and ideas about technology.
