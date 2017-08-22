@@ -3,23 +3,20 @@
 
   {% include head.html %}
 
-  <body>
+    <body>
 
-    {% include header.html %}
+      {% include icomoon.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="col-main">
-          {{ content }}
-        </div>
-        <div class="col-second">
-          {% include sidebar.html %}
-        </div>
+      {% include header.html %}
+
+      <div role="main" class="main-content">
+        {{ content }}
       </div>
-    </div>
 
-    {% include footer.html %}
+      {% include aside.html %}
 
-  </body>
+      {% include footer.html %}
+
+    </body>
 
 </html>
