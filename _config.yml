@@ -102,8 +102,8 @@ navigation_header:
   Search: /search/
 #  Fork Alembic: https://github.com/daviddarnes/alembic
 
-navigation_footer:
-  Created by David Darnes: https://darn.es
+# navigation_footer:
+#  Created by David Darnes: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes

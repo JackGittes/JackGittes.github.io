@@ -1,8 +1,8 @@
 ---
-title: About Alembic
+title: About Blog
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+  ## Welcome
+  A blog recording my daily thoughts and ideas about technology.
 feature_image: "https://unsplash.it/1300/400?image=971"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
