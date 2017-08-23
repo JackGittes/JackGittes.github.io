@@ -23,7 +23,7 @@ exclude:
 - _posts/2016-08-29-example-post-three.md
 
 # 2. Installed Gems
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
@@ -99,13 +99,13 @@ navigation_header:
   Home: /
 #  Elements: /elements/
   Blog: /blog/
-  Categories: /categories
+  Categories: /categories/
 # Search: /search/
-  About Me: /about-me
+  About Me: /about-me/
 #  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-  Contact: /about-me/
+  Contact: /about-me
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes

@@ -1,9 +1,6 @@
 ---
 title: 赵明心 (Zhao Mingxin)
-# feature_text: |
-#   This page is a brief introduction of me.
-# feature_image: "https://unsplash.it/1300/400?image=1061"
-excerpt: "A demo of Markdown and HTML includes"
+excerpt: "A Brief Introduction of Myself"
 aside: false
 ---
 
@@ -11,6 +8,7 @@ aside: false
 <img src="http://wx4.sinaimg.cn/small/41f56ddcly1fitk7pj3eaj208i099q5d.jpg" width="150px">
 </center>
 
+## Resume
 - I'm a first grade Ph.D student at Institute of Semiconductors, CAS, Beijing, China. Now I major in high speed vision chip design which is a crossing field involving digital VLSI, machine learning and computer vision.  
 Recently, I'm taking interest in compressing and simplifying deep neural networks in order to accelerate DNN's overall computational performance on embedded real-time systems and mobile devices.  
 Additionally, I'm also looking farward to getting more friends in related research areas and sharing innovative ideas with each other.  
@@ -25,6 +23,6 @@ Additionally, I'm also looking farward to getting more friends in related resear
 - Computer Vision  
 
 ## Contact Me
-{% include icon.html id="email" %},"zhaomx17@126.com"
+{% include icon.html id="email" caption="zhaomx17@126.com" %}
 
  [{% include icon.html id="github" %}](https:github.com/JackGittes)
