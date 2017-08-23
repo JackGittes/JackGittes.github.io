@@ -21,7 +21,7 @@ body {
 
 // Links.
 a {
-  color: $linkColour;
+  color: $bodyColour;
   text-decoration: none;
   transition: color .1s, background-color .1s;
 
@@ -35,20 +35,20 @@ a {
 .typeset {
 
   // Nice underlines for text links.
-  p a, li a {
-    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
-    background-position: 0 93%;
-    background-repeat: repeat-x;
-    background-size: 100% 0.15rem;
-    text-shadow: 0.1rem 0 $backgroundColour,
-                 0.15rem 0 $backgroundColour,
-                -0.1rem 0 $backgroundColour,
-                -0.15rem 0 $backgroundColour;
+// p a, li a {
+//    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
+//    background-position: 0 93%;
+//    background-repeat: repeat-x;
+//    background-size: 100% 0.15rem;
+//    text-shadow: 0.1rem 0 $backgroundColour,
+//                 0.15rem 0 $backgroundColour,
+ //               -0.1rem 0 $backgroundColour,
+ //               -0.15rem 0 $backgroundColour;
 
-    &:hover, &:active, &:focus {
-      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
-    }
-  }
+ //   &:hover, &:active, &:focus {
+ //     background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
+ //   }
+ // }
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
@@ -68,7 +68,7 @@ a {
 
   // Heading level 1.
   h1, .alpha {
-    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
+    @include sassline($fontsize: beta, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
   }
 
   // Heading level 2.

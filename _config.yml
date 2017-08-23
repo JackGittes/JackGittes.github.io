@@ -20,6 +20,7 @@ exclude:
 - Gemfile.lock
 - demo/*
 - alembic-jekyll-theme.gemspec
+- _posts/2016-08-29-example-post-three.md
 
 # 2. Installed Gems
 plugins:
@@ -50,7 +51,7 @@ social: # jekyll-seo-tag > social overrides
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: /:year/:month/:day/:title  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Asia/Shanghai # Timezone for blog posts and alike
 
@@ -99,7 +100,7 @@ navigation_header:
 #  Elements: /elements/
   Blog: /blog/
   Categories: /categories/
-  Search: /search/
+# Search: /search/
   About Me: /about-me/
 #  Fork Alembic: https://github.com/daviddarnes/alembic
 
@@ -115,13 +116,14 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  Twitter: "#1DA1F2"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
+ # Twitter: "#1DA1F2"
+ # facebook: "#3B5998"
+ # Google+: "#DC4E41"
   # Pinterest: "#BD081C"
   # LinkedIn: "#0077B5"
   # tumblr: "#36465D"
   # Reddit: "#FF4500"
   # Hacker News: "#ff6600"
   # Designer News: "#2D72D9"
+  Github: "#1DA1F2"
   Email: "#DC4E41"
