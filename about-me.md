@@ -6,6 +6,8 @@ title: 赵明心 (Zhao Mingxin)
 excerpt: "A demo of Markdown and HTML includes"
 aside: false
 ---
+<img src="http://wx3.sinaimg.cn/small/41f56ddcly1fitjspbmpej208j0btqa6.jpg" width="100px">
+
 ___
 I'm a first grade Ph.D student at Institute of Semiconductors, CAS, Beijing, China. Now, I major in high speed vision chip design which is a crossing field involving digital VLSI, machine learning and computer vision.  
 Recently, I'm taking interest in compressing and simplifying deep neural networks in order to accelerate DNN's overall computational performance on embedded real-time systems and mobile devices.  
