@@ -24,4 +24,4 @@ Computer Vision
 ***
 ## Contact Me
 {% include icon.html id="email" %}  zhaomx17@126.com
-[{% include icon.html id="github" % link="https:github.com/JackGittes"}]
+[{% include icon.html id="github" link="https:github.com/JackGittes"%}]
