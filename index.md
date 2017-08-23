@@ -3,7 +3,7 @@ title: Welcome to My Homepage
 feature_text: |
   ## Welcome
   A blog recording my daily thoughts and ideas about technology.
-feature_image: "https://unsplash.it/1300/400?image=145103"
+feature_image: "https://unsplash.it/1300/400?image=971"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
