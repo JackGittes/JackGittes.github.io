@@ -6,7 +6,7 @@ title: 赵明心 (Zhao Mingxin)
 excerpt: "A demo of Markdown and HTML includes"
 aside: false
 ---
-<img src="http://wx3.sinaimg.cn/small/41f56ddcly1fitjspbmpej208j0btqa6.jpg" width="100px">
+<img src="http://wx4.sinaimg.cn/small/41f56ddcly1fitk7pj3eaj208i099q5d.jpg" width="100px">
 
 ___
 I'm a first grade Ph.D student at Institute of Semiconductors, CAS, Beijing, China. Now, I major in high speed vision chip design which is a crossing field involving digital VLSI, machine learning and computer vision.  
