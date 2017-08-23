@@ -104,7 +104,7 @@ navigation_header:
 #  Fork Alembic: https://github.com/daviddarnes/alembic
 
  navigation_footer:
-   Email: zhaomx17@126.com
+#   Email: zhaomx17@126.com
 #  Created by David Darnes: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
