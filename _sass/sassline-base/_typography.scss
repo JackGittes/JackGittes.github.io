@@ -16,7 +16,7 @@ body {
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;
   font-weight: map-get($bodytype, regular);
-  line-height: 2rem;
+  line-height: 1rem;
 }
 
 // Links.
