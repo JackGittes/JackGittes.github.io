@@ -32,7 +32,7 @@ gems:
 - jemoji
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
@@ -124,4 +124,4 @@ sharing_links: # Appear at the bottom of single blog posts, uncomment and commen
   # Reddit: "#FF4500"
   # Hacker News: "#ff6600"
   # Designer News: "#2D72D9"
-  # Email: ""
+  Email: "#DC4E41"
