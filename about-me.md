@@ -11,6 +11,7 @@ aside: false
 I'm a first grade Ph.D student at Institute of Semiconductors, CAS, Beijing, China. Now, I major in high speed vision chip design which is a crossing field involving digital VLSI, machine learning and computer vision.  
 Recently, I'm taking interest in compressing and simplifying deep neural networks in order to accelerate DNN's overall computational performance on embedded real-time systems and mobile devices.  
 Additionally, I'm also looking farward to getting more friends in related research areas and sharing innovative ideas with each other.   
+
 ***
 ## Background  
 2017.9 ——— Now, Ph.D student in EE, Institute of Semiconductors, CAS, Beijing, China  
