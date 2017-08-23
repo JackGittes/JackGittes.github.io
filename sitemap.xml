@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jackgittes.github.io/categories/</loc>
+    <loc>https://jackgittes.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jackgittes.github.io/topics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jackgittes.github.io/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jackgittes.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
