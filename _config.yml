@@ -23,7 +23,7 @@ exclude:
 - _posts/2016-08-29-example-post-three.md
 
 # 2. Installed Gems
-plugins:
+gems:
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
