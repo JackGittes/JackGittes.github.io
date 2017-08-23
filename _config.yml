@@ -99,9 +99,9 @@ navigation_header:
   Home: /
 #  Elements: /elements/
   Blog: /blog/
-  Categories: /categories/
+  Categories: /categories
 # Search: /search/
-  About Me: /about-me/
+  About Me: /about-me
 #  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
