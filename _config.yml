@@ -60,9 +60,9 @@ collections:
     title: Posts # Needed for Siteleaf
     output: true
     description: "" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: "https://unsplash.it/1300/400?image=1067"
+ #   feature_text: |
+ #     Welcome to the blog
+ #   feature_image: "https://unsplash.it/1300/400?image=1067"
 
 # 6. Jekyll collections settings
 defaults:
@@ -72,6 +72,20 @@ defaults:
       type: pages
     values:
       layout: page # Default layout
+      image: "/assets/default-social-image.png" # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post # Default layout
+      image: "/assets/default-social-image.png" # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post # Default layout
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
