@@ -30,10 +30,18 @@ $headingtype: (
 );
 
 $monospacetype: (
-  font-family: "Microsoft YaHei UI",
+  font-family: "Iosevka",
   regular: 400,
   cap-height: 0.68
 );
+
+$codetype:
+(
+  font-family: "Menlo",
+  regular: 400,
+  cap-height: 0.68
+);
+
 
 // Font import, if you're using a non-standard web font
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');

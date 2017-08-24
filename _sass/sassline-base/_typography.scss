@@ -315,10 +315,10 @@ a {
     padding-top: 3rem;
   }
 
-  // Code block.
+ // Code block.
   code, pre {
-    background-color: $codeBackgroundColour;
-    font-family: unquote(map-get($monospacetype, font-family));
+   background-color: $codeBackgroundColour;
+    font-family:"Simsun" //unquote(map-get($monospacetype, font-family));
   }
 
   pre {
@@ -328,7 +328,7 @@ a {
     white-space: pre;
     white-space: pre-wrap;
     word-break: break-all;
-    word-wrap: break-word;
+   word-wrap: break-word;
   }
 
   code {
@@ -337,26 +337,26 @@ a {
     line-height: 1rem;
   }
 
-  // Letter space those capitals people, Jan Tschichold would be proud.
-  .upper {
+ //Letter space those capitals people, Jan Tschichold would be proud.
+  t .upper {
     font-kerning: normal;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
   }
 
-  // Real small caps.
+ //Real small caps.
   .small-caps {
     font-feature-settings: 'smcp', 'kern';
     font-kerning: normal;
     letter-spacing: 0.1rem;
   }
 
-  // Consistent height numbers with OpenType.
+ //  Consistent height numbers with OpenType.
   .lining-numerals {
     font-feature-settings: 'lnum', 'kern';
-  }
+ }
 
-  // Ascending and descending numbers with OpenType.
+ //  Ascending and descending numbers with OpenType.
   .oldstyle-numerals {
     font-feature-settings: 'onum', 'kern';
   }

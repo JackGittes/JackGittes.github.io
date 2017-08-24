@@ -31,7 +31,6 @@ plugins:
 - jekyll-redirect-from
 - jekyll-feed
 - jemoji
-- pygments.rb
 
 # 3. Gem settings
 paginate: 10 # jekyll-paginate > items per page
@@ -42,7 +41,8 @@ author: Zhao Mingxin # jekyll-seo-tag > default author
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
+  syntax_highlighter: rouge
+highlighter: rouge
 
 # 4. Jekyll settings
 sass:
