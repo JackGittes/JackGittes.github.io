@@ -1,6 +1,7 @@
 ---
 title: 赵明心 (Zhao Mingxin)
 excerpt: "A Brief Introduction of Myself"
+permalink: /about-me/
 aside: false
 ---
 
