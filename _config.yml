@@ -91,21 +91,17 @@ url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
 email: "zhaomx17@126.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "https://www.gravatar.com/avatar/7af561d3f85bdb2949ad21d0fddb74a7" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
   Home: /
-#  Elements: /elements/
   Blog: /blog/
   Categories: /categories/
-# Search: /search/
   About Me: /about-me/
-#  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-  Contact: /about-me
+  Contact: /about-me/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
