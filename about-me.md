@@ -26,4 +26,4 @@ Additionally, I'm also looking farward to getting more friends in related resear
 ## Contact Me
 {% include icon.html id="email" caption="zhaomx17@126.com" %}
 
- [{% include icon.html id="github" %}](https:github.com/JackGittes)
+ [{% include icon.html id="github" %}](https://github.com/JackGittes)
