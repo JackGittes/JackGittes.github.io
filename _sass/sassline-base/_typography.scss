@@ -411,13 +411,11 @@ pre a:only-of-type::before {
   //   padding: 10px;
   // }
 
-//   code {
-//     @include fontsize(eta, all);
-//     white-space: pre-wrap;
-//     word-break: break-all;
-//     word-wrap: break-word;
-//     line-height: 1.2rem;
-//   }
+   code {
+     @include fontsize(eta, all);
+
+     line-height: 1.2rem;
+   }
 
 //  //Letter space those capitals people, Jan Tschichold would be proud.
 //   .upper {
