@@ -324,24 +324,18 @@ a {
   pre {
     display: block;
     margin-bottom: 1.5rem;
-    padding: 1rem;
+    padding: 3rem;
     white-space: pre;
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-    line-height: 1.1rem;
+    line-height: 1.2rem;
   }
 
   code {
     @include fontsize(eta, all);
-    display: block;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    white-space: pre;
-    white-space: pre-wrap;
-    word-break: break-all;
-    word-wrap: break-word;
-    line-height: 1.1rem;
+
+    line-height: 1.2rem;
   }
 
  //Letter space those capitals people, Jan Tschichold would be proud.
