@@ -9,8 +9,7 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 <h2 align="center">
 记录感想，分享知识
 </h2>
-
-``` python
+{% highlight python linenos %}
 import sys
 import cPickle as pickle
 
@@ -46,4 +45,4 @@ def preProBuildWordVocab(sentence_iterator, word_count_threshold):
     wordtoix[w] = ix
     ixtoword[ix] = w
     ix += 1
-```
+{% endhighlight %}
