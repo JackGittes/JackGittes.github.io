@@ -326,8 +326,8 @@ a {
   pre {
     font-family:unquote(map-get($monospacetype, font-family));
     counter-reset: line-numbering;
-    border: solid 1px none;
-    border-radius: 0;
+ //   border: solid 1px rgb(234, 236, 235);
+ //   border-radius: 0;
     background:  $codeBackgroundColour;
     padding-bottom: 0.1rem;
     line-height: 1.2rem;
@@ -343,14 +343,12 @@ pre a::before {
   content: counter(line-numbering);
   counter-increment: line-numbering;
   padding-right: 1rem; /* space after numbers */
-  width: 1rem;
+  width: 0.8rem;
   text-align: right;
   opacity: 0.7;
   display: inline-block;
-  color: #BA2727;
-  background: #AC0707;
-  margin-right: 16px;
-  padding: 2px 10px;
+  margin-right: 0px;
+  padding: 0px;
   font-size: 13px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -369,7 +367,7 @@ pre a:last-of-type::before {
 }
 
 pre a:only-of-type::before {
-  padding: 10px;
+  padding: 0px;
 }
 
 //   pre {
