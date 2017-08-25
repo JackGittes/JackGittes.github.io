@@ -105,7 +105,7 @@ encoding: utf-8 # Make sure the encoding is right
 title: "Zhao Mingxin's Blog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "A blog recording daily thoughts and ideas maintained by Zhao Mingxin" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+url: "https://jackgittes.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 email: "zhaomx17@126.com"
 avatarurl: "https://www.gravatar.com/avatar/7af561d3f85bdb2949ad21d0fddb74a7" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
