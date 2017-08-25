@@ -316,18 +316,8 @@ a {
   }
 
  // Code block.
-  // code, 
-  // pre {
-  // // background-color: $codeBackgroundColour;
-  //   font-family:unquote(map-get($monospacetype, font-family));
-  // }
-
-
   pre {
     font-family:unquote(map-get($monospacetype, font-family));
-    counter-reset: line-numbering;
- //   border: solid 1px rgb(234, 236, 235);
- //   border-radius: 0;
     background:  $codeBackgroundColour;
     padding-bottom: 0.1rem;
     line-height: 1.2rem;
@@ -337,107 +327,10 @@ a {
     overflow-y: hidden;
     word-break: inherit;
     word-wrap: inherit;
-}
+  }
 
-pre a::before {
-  content: counter(line-numbering);
-  counter-increment: line-numbering;
-  padding-right: 1rem; /* space after numbers */
-  width: 0.8rem;
-  text-align: right;
-  opacity: 0.7;
-  display: inline-block;
-  margin-right: 0px;
-  padding: 0px;
-  font-size: 13px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-pre a:first-of-type::before {
-  padding-top: 10px;
-}
-
-pre a:last-of-type::before {
-  padding-bottom: 10px;
-}
-
-pre a:only-of-type::before {
-  padding: 0px;
-}
-
-//   pre {
-// //    display: block;
-// //    margin-bottom: 1.5rem;
-//     counter-reset: line-numbering;
-//     border: solid 1px #d9d9d9;
-//     border-radius: 0;
-//     padding: 3rem 1rem 1rem 1rem;
-//     white-space: pre;
-// //  white-space: pre-wrap;
-//     word-break: inherit;
-//     word-wrap: inherit;
-//     line-height: 1.2rem;
-//     overflow-x: auto;
-//     overflow-y: auto;
-//   }
-
-//   pre a::before {
-//     content: counter(line-numbering);
-//     counter-increment: line-numbering;
-//     display: inline-block;
-//     color: #E12D2D;
-//     -webkit-touch-callout: none;
-//     -webkit-user-select: none;
-//     -khtml-user-select: none;
-//     -moz-user-select: none;
-//     -ms-user-select: none;
-//     user-select: none;
-//   }
-  
-  // pre a:first-of-type::before {
-  //   padding-top: 10px;
-  // }
-  
-  // pre a:last-of-type::before {
-  //   padding-bottom: 10px;
-  // }
-  
-  // pre a:only-of-type::before {
-  //   padding: 10px;
-  // }
-
-   code {
+  code {
      @include fontsize(eta, all);
-
      line-height: 1.2rem;
-   }
-
-//  //Letter space those capitals people, Jan Tschichold would be proud.
-//   .upper {
-//     font-kerning: normal;
-//     letter-spacing: 0.1rem;
-//     text-transform: uppercase;
-//   }
-
-//  //Real small caps.
-//   .small-caps {
-//     font-feature-settings: 'smcp', 'kern';
-//     font-kerning: normal;
-//     letter-spacing: 0.1rem;
-//   }
-
-//  //  Consistent height numbers with OpenType.
-//   .lining-numerals {
-//     font-feature-settings: 'lnum', 'kern';
-//   }
-
-//  //  Ascending and descending numbers with OpenType.
-//   .oldstyle-numerals {
-//     font-feature-settings: 'onum', 'kern';
-//   }
- }
+  }
+}
