@@ -318,7 +318,7 @@ a {
  // Code block.
   code, pre {
    background-color: $codeBackgroundColour;
-    font-family:"Simsun" //unquote(map-get($monospacetype, font-family));
+    font-family:unquote(map-get($monospacetype, font-family));
   }
 
   pre {

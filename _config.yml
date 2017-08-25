@@ -42,6 +42,19 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+#kramdown: redcarpet
+# redcarpet:
+#  extensions:
+#  - hard_wrap
+#  - no_intra_emphasis
+#  - autolink
+#  - strikethrough
+#  - fenced_code_blocks
+#  - with_toc_data
+#  - tables
+#  - underline
+
 highlighter: rouge
 
 # 4. Jekyll settings
