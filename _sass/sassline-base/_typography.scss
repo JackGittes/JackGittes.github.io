@@ -323,22 +323,23 @@ a {
 
   pre {
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     padding: 1rem;
     white-space: pre;
     white-space: pre-wrap;
     word-break: break-all;
    word-wrap: break-word;
+   line-height: 1.1rem;
   }
 
   code {
-    @include fontsize(theta, all);
+    @include fontsize(eta, all);
 
     line-height: 1rem;
   }
 
  //Letter space those capitals people, Jan Tschichold would be proud.
-  t .upper {
+  .upper {
     font-kerning: normal;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
@@ -354,7 +355,7 @@ a {
  //  Consistent height numbers with OpenType.
   .lining-numerals {
     font-feature-settings: 'lnum', 'kern';
- }
+  }
 
  //  Ascending and descending numbers with OpenType.
   .oldstyle-numerals {
