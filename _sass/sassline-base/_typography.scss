@@ -87,7 +87,7 @@ a {
 
   // Heading level 5.
   h5, .epsilon {
-    @include sassline(epsilon, $headingtype, 2, 0, all);
+    @include sassline(epsilon, $headingtype, 2, 0.5, all);
   }
 
   // Heading level 6.
