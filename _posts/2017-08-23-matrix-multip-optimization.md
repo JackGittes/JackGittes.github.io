@@ -117,24 +117,19 @@ use_math: true
 　　可以看到，所列举的这些常见优化方法都存在着或多或少的不足，因此根据实际计算任务中的矩阵特点以及需要部署的硬件平台，SpMV计算需要进行有针对性的设计才能实现更好地加速效果。而像超级计算机这种面向大型计算任务的硬件平台更需要设计出能适合各种不同特性SpMV的优化方案。
 
 Note: 本文是我在调研神经网络压缩和加速时的一篇文献总结，如需转载，请注明出处。
+
+---
 ### 4. 参考文献
+<small>
+[1] Kevin R. Townsend, Computing SpMV on FPGAs[D]. Iowa:	Iowa State University, 2016 <br/>
+[2] Dorrance R, Ren F, Markovic D, et al. A scalable sparse matrix-vector multiplication kernel for energy-efficient sparse-blas on FPGAs[C]. field programmable gate arrays, 2014: 161-170.<br/>
+[3] Zhuo L, Prasanna V K. Sparse Matrix-Vector multiplication on FPGAs[C]. field programmable gate arrays, 2005: 63-74.<br/>
+[4] 邬贵明.FPGA矩阵计算并行算法与结构[D].长沙:国防科学技术大学,2011.<br/>
+[5] Kestur S, Davis J D, Chung E S, et al. Towards a Universal FPGA Matrix-Vector Multiplication Architecture[C]. field programmable custom computing machines, 2012: 9-16<br/>
+[6] Han S, Mao H, Dally W J, et al. Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding[J]., 2015.<br/>
+[7] Kourtis K, Goumas G, Koziris N, et al. Improving the Performance of Multithreaded Sparse Matrix-Vector Multiplication Using Index and Value Compression[C]. international conference on parallel processing, 2008: 511-519.<br/>
+[8] Lee S, Eigenmann R. Adaptive runtime tuning of parallel sparse matrix-vector multiplication on distributed memory systems[C]. international conference on supercomputing, 2008: 195-204<br/>
+[9] Shah M, Patel V J. An Efficient Sparse Matrix Multiplication for Skewed Matrix on GPU[C]. high performance computing, 2012: 1301-1306.<br/>
+</small>
 
-[1] Kevin R. Townsend, Computing SpMV on FPGAs[D] , 2016
-
-[2] Dorrance R, Ren F, Markovic D, et al. A scalable sparse matrix-vector multiplication kernel for energy-efficient sparse-blas on FPGAs[C]. field programmable gate arrays, 2014: 161-170.
-
-[3] Zhuo L, Prasanna V K. Sparse Matrix-Vector multiplication on FPGAs[C]. field programmable gate arrays, 2005: 63-74.
-
-[4] 邬贵明.FPGA矩阵计算并行算法与结构[D].长沙:国防科学技术大学,2011.
-
-[5] Kestur S, Davis J D, Chung E S, et al. Towards a Universal FPGA Matrix-Vector Multiplication Architecture[C]. field programmable custom computing machines, 2012: 9-16
-
-[6] Han S, Mao H, Dally W J, et al. Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding[J]., 2015.
-
-[7] Kourtis K, Goumas G, Koziris N, et al. Improving the Performance of Multithreaded Sparse Matrix-Vector Multiplication Using Index and Value Compression[C]. international conference on parallel processing, 2008: 511-519.
-
-[8] Lee S, Eigenmann R. Adaptive runtime tuning of parallel sparse matrix-vector multiplication on distributed memory systems[C]. international conference on supercomputing, 2008: 195-204
-
-[9] Shah M, Patel V J. An Efficient Sparse Matrix Multiplication for Skewed Matrix on GPU[C]. high performance computing, 2012: 1301-1306.
-
-
+---
