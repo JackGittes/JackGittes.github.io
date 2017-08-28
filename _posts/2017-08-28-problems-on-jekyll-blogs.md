@@ -72,7 +72,7 @@ code {
       tex2jax: {
         inlineMath: [ ['$','$'] ],
         displayMath: [ ['$$','$$'] ],
-        processEscapes: true,
+        processEscapes: true
       }
     });
   </script>
@@ -81,9 +81,10 @@ code {
   </script>
 {% endhighlight %}
 之后再将mathjax.html这个文件include到_layouts\default.html中。
-{% highlight liquid %}
-\{% if page.use_math %}
+
+```liquid
+{% if page.use_math %}
 	{% include mathjax_support.html %}
-\{% endif %}
-{% endhighlight %} 
+{% endif %}
+```
 这样就可以用latex语法编写公式，并在网页中生成了。
