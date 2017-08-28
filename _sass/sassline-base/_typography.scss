@@ -318,9 +318,9 @@ a {
   pre {
     font-family:unquote(map-get($monospacetype, font-family));
     background:  $codeBackgroundColour;
-    padding-bottom: 0.1rem;
+ //   padding-bottom: 0.1rem;
     line-height: 1.2rem;
-    margin-bottom: 30px;
+ //   margin-bottom: 1rem;
     white-space: pre;
     overflow-x: auto;
     overflow-y: hidden;
