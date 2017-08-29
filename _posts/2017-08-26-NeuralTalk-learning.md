@@ -42,8 +42,8 @@ excerpt: |
 
 　　常见的基本RNN模型参数更新公式为：
 
-$$ \boldsymbol{h}^{(t)}=\sigma(W^{hx}\boldsymbol{x}^{(t)}+W^{hh}\boldsymbol{h}^{(t-1)}+\boldsymbol{b}_{h})\\
-\boldsymbol{y}^{(t)}=softmax(W^{yh}\boldsymbol{h}^{(t)}+\boldsymbol{b}_{y}) $$
+$$\boldsymbol{h}^{(t)}=\sigma(W^{hx}\boldsymbol{x}^{(t)}+W^{hh}\boldsymbol{h}^{(t-1)}+\boldsymbol{b}_{h})$$
+$$\boldsymbol{y}^{(t)}=softmax(W^{yh}\boldsymbol{h}^{(t)}+\boldsymbol{b}_{y})$$
 
 
 ### 部分源代码分析
