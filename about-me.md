@@ -24,6 +24,8 @@ Additionally, I'm also looking farward to getting more friends in related resear
 - Computer Vision  
 
 ## Contact Me
+
 <span>{% include icon.html id="email" %}&nbsp;  zhaomx17@126.com</span>
 
-<span>[{% include icon.html id="github" %}](https://github.com/JackGittes)&nbsp;  <a href="https://github.com/jackgittes/">https://github.com/jackgittes/ </a></span>
+<span>[{% include icon.html id="github" %}](https://github.com/JackGittes)
+&nbsp;&nbsp;[{% include icon.html id="zhihu" %}](https://www.zhihu.com/people/zhao-xin-mei-48/activities)</span>
