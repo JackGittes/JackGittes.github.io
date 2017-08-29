@@ -83,8 +83,9 @@ code {
 之后再将mathjax.html这个文件include到_layouts\default.html中。
 
 ```liquid
-{% if page.use_math %}
+{% if page.use_math %}{
 	{% include mathjax_support.html %}
+}
 {% endif %}
 ```
 这样就可以用latex语法编写公式，并在网页中生成了。
