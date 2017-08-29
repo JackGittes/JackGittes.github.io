@@ -41,7 +41,6 @@ excerpt: |
 　　CNN的输入和输出是直接对应的，这样就隐含了对输入数据在时间尺度上的不相关性假设，所以对前后关联的序列型数(如自然语言、时间序列等)无能为力。相比之下，递归神经网络(RNN)更擅长于处理序列信息。RNN给隐藏层神经元设置了状态参量，并引入了递归边，用隐藏层当前时刻的输出来更新这些状态参量，实现了对之前输入数据的记忆功能。
 
 　　常见的基本RNN模型参数更新公式为：
-
 $$\boldsymbol{h}^{(t)}=\sigma(W^{hx}\boldsymbol{x}^{(t)}+W^{hh}\boldsymbol{h}^{(t-1)}+\boldsymbol{b}_{h})$$
 $$\boldsymbol{y}^{(t)}=softmax(W^{yh}\boldsymbol{h}^{(t)}+\boldsymbol{b}_{y})$$
 
