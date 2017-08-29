@@ -1,3 +1,5 @@
 <small class="small  post-meta">
-  {% if page.category %}<span class="label  label--category"><a href="{{ site.baseurl }}/categories#{{ page.category | downcase }}">{{ page.category }}</a></span>&nbsp;&nbsp;&middot;&nbsp;&nbsp;{% endif %}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>
+  <span class="label  label--author"><a href="{{ site.baseurl }}/about-me/">作者：{{ page.author }}</a></span>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+  {% if page.category %}<span class="label  label--category"><a href="{{ site.baseurl }}/categories#{{ page.category | downcase }}">{{ page.category }}</a></span>&nbsp;&nbsp;&middot;&nbsp;&nbsp;{% endif %}
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>
 </small>
