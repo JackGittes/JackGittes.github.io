@@ -128,8 +128,9 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  Github: "#1DA1F2"
+  Github: "#24292e"
   Email: "#DC4E41"
+  Zhihu: "#0f88eb"
  # Twitter: "#1DA1F2"
  # facebook: "#3B5998"
  # Google+: "#DC4E41"
