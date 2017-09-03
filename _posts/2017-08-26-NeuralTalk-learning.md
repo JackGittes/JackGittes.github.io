@@ -79,3 +79,5 @@ def LSTMtick(x, h_prev, c_prev):
     # forward prop the image
     (y0, h, c) = LSTMtick(Xi, np.zeros(d), np.zeros(d))
 {% endhighlight %}
+
+---
