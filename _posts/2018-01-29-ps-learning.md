@@ -20,7 +20,7 @@ use_math: true
 - 适当的饱和度
 - 丰富的层次
 
-下面按照这五个技术指标进行展开，使用的后期软件是Adobe Camera Raw(ACR)和Adobe Photoshop，同样也适用于Adobe LightRoom。
+下面按照这五个技术指标进行展开，使用的后期软件是Adobe Camera Raw(ACR)和Adobe Photoshop，同样也适用于Adobe Lightroom。
 ### 相机校正
 在进行所有的操作之前，有一个必要的准备工作，那就是镜头校正，利用相机镜头的配置文件对片子进行校准，这里把它作为第0步。
 
