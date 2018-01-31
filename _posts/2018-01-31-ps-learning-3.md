@@ -24,7 +24,7 @@ use_math: true
 先举个例子，在灰霾天气下拍摄的天空不够蓝，为了使片子里的天空看起来更蓝，我们需要怎么做呢？根据原色和补色的原理，蓝色的补色是黄色，黄色与蓝色在色光模式下混合会变成白色(在纯度较低的时候就是灰色)，那么为了突出蓝色，就需要在HSL模式中提高蓝色分量的同时，压低黄色分量。
 
 <center>
-<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fnzsu2qnu4j21580q7npa.jpg" width="400px">
+<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fnzsu2qnu4j21580q7npa.jpg" width="600px">
 </center>
 
 #### 色温、色相与色调
@@ -38,7 +38,7 @@ use_math: true
 色相即色彩的名称，如红橙黄绿青蓝紫，都是色相。色彩按照波长在可见光范围内是连续变化的，对连续的色彩定义每种颜色的名字显然是不可能的。但我们有原色/补色原理，原色(色光)或者补色(印刷)按照不同比例混合，我们可以获得各种其他的颜色，所以在ACR和Photoshop中调节色相的时候往往只有比较典型的几种颜色，下面就是ACR中HSL模式里可调节的几种色相。
 
 <center>
-<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnzrgg1d2bj206a095mxj.jpg" width="300px">
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnzrgg1d2bj206a095mxj.jpg" width="150px">
 </center>
 
 ### HSL色彩调节
