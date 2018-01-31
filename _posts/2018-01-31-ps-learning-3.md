@@ -54,7 +54,7 @@ use_math: true
 <img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnzrgg1d2bj206a095mxj.jpg" width="150px">
 </center>
 
-色调(Tone)的维基百科定义其实是被重定向到了“Lightness”上，“In colorimetry and color theory, lightness, also known as value or tone, is a representation of variation in the perception of a color or color space's brightness.”也即，在色彩学或者色彩理论中，明度亦被成为颜色值或者调性，是一种对色彩明亮程度变化在感知上表示。简单点说，就是某种颜色的亮暗可以说成是色调。在参考了其他一些关于色彩的表述和实际使用ACR色调调节以后，我感觉色调在ACR中可以理解成某种颜色在片子中的占比(这和维基的定义有相似之处)，表示了片子整体色彩的一种倾向性。例如把色调往青色打的时候，整个片子整体会发青，这和色温的调节有相似之处。我找了一张有明显色彩倾向性的火车窗外照片(偏蓝)为例：
+色调(Tone)的维基百科定义其实是被重定向到了“Lightness”上，“In colorimetry and color theory, lightness, also known as value or tone, is a representation of variation in the perception of a color or color space's brightness.”也即，在色彩学或者色彩理论中，明度亦被称为颜色值或者调性，是一种对色彩明亮程度变化在感知上的表示。简单点说，就是某种颜色的亮暗可以说成是色调。在参考了其他一些关于色彩的表述和实际使用ACR色调调节以后，我感觉色调在ACR中可以理解成某种颜色在片子中的占比(这和维基的定义有相似之处)，表示了片子整体色彩的一种倾向性。例如把色调往青色打的时候，整个片子整体会发青，这和色温的调节有相似之处。我找了一张有明显色彩倾向性的火车窗外照片(偏蓝)为例：
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fo011pwoyyj213z0pjkjl.jpg" width="500px">
 </center>
