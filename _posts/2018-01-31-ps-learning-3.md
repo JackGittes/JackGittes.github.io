@@ -53,3 +53,7 @@ use_math: true
 ### 三、影调
 
 影调理论主要是建立在风光摄影大师安塞尔·亚当斯提出的“影调分区理论”，安塞尔·亚当斯将从白(明)到黑(暗)划分成了11个区
+
+<center>
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzxnwv0wuj215s0mmwg0.jpg" width="600px">
+</center>
