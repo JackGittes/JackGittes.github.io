@@ -62,3 +62,9 @@ use_math: true
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzymafk0fj20ph0sbdhx.jpg" width="500px">
 </center>
+
+关于影调，有很多大师级的摄影作品可以效仿，不同摄影师往往有各自的影调风格，这个也是需要通过逐渐训练才能形成的。就一般初学者而言，大部分片子属于中长调，也即片子当中有少许暗部和少许亮部，剩下绝大部分细节在亮度居中的区域，从直方图来看就是直方图居中，并且延伸到左右两侧。但根据统计，收藏级作品的影调以低长调和低中调居多，下面是两个例子。低调和短调片子对初学者来说很难控制，所以初学后期还是应当从中长调做起。
+
+<center>
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzyz0994fj21b40kl7qg.jpg" width="600px">
+</center>
