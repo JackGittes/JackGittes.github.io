@@ -33,7 +33,7 @@ use_math: true
 <center>
 <img src="http://wx1.sinaimg.cn/large/41f56ddcly1fnzpehwuemj211d0j8q4b.jpg" width="400px">
 </center>
-先举个例子，在灰霾天气下拍摄的天空不够蓝，为了使片子里的天空看起来更蓝，我们需要怎么做呢？根据原色和补色的原理，蓝色的补色是黄色，黄色与蓝色在色光模式下混合会变成白色(在纯度较低的时候就是灰色)，那么为了突出蓝色，就需要在HSL模式中提高蓝色分量的同时，压低黄色分量。
+先举个例子，在灰霾天气下拍摄的天空不够蓝，为了使片子里的天空看起来更蓝，我们需要怎么做呢？根据原色和补色的原理，蓝色的补色是黄色，黄色与蓝色在色光模式下混合会变成白色(在纯度较低的时候就是灰色)，那么为了突出蓝色，就需要在HSL模式中提高蓝色分量的同时，压低黄色分量，下图是在灰霾天下的国科大后山。
 
 <center>
 <img src="http://wx2.sinaimg.cn/large/41f56ddcly1fnzsu2qnu4j21580q7npa.jpg" width="600px">
@@ -41,8 +41,7 @@ use_math: true
 如果还需要更加精细地局部色彩调节，只能进入Photoshop中借助蒙版等工具实现。
 
 #### 2.色温、色相与色调
-色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此ACR虽然沿用了以开尔文来标度的色温，但是将蓝紫色设置为低色温，偏黄色设为高色温，其色温变化范围是2000K~50000K。
-
+色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此ACR虽然沿用了以开尔文来标度的色温，但是将蓝紫色设置为低色温，偏黄色设为高色温，其色温变化范围是2000K~50000K。下图以国科大的学院二为例。
 
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzra9qojhj21100n8b29.jpg" width="600px">
@@ -55,6 +54,15 @@ use_math: true
 </center>
 
 ### 二、HSL色彩调节
+实际上，在前面介绍色彩知识的时候已经把HSL所能调节的部分给列举了。HSL是一种色彩模式(空间)，其中H(Hue)表示色相，S(Saturation)表示饱和度，L(Lighteness)表示明度。ACR的HSL调节中给了八种色相，分别是“红、橙、黄、绿、浅绿(青)、蓝、紫、洋红”，可以根据片子的色彩倾向，分别调节这几种色相的“色相值、饱和度、明度”。当直接调节每个色相的色相值时，颜色会发生偏移而转变成其他颜色，而调节“饱和度、明度”只会影响该种颜色的纯度和亮度，不会使一种颜色变成另一种颜色。以夜景下的国科大钟楼为例：
+
+
+<center>
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fo002kdhmkj20zf0q9qlh.jpg" width="500px">
+</center>
+
+但是ACR的调节也是有限的，例如无法实现红色变绿色，这种大跨度的色相修改需要在Photoshop中才能完成。
+
 
 ### 三、影调
 
