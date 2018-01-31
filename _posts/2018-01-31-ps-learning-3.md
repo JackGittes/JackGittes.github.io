@@ -14,9 +14,9 @@ use_math: true
 ---
 ### 概要
 
-### 本节需要用到的一些基本色彩知识
+### 一、色彩预备知识
 
-#### 原色空间与补色空间
+#### 1.原色空间与补色空间
 原色空间是RGB(红绿蓝)，补色空间是CMY(青品黄)，原色和补色大多数人都比较清楚，但是知道这些对于片子调色有什么用呢？实际上明白了原色、补色之后，想要控制某种色彩在片子中的比重就会变得很容易。
 <center>
 <img src="http://wx1.sinaimg.cn/large/41f56ddcly1fnzpehwuemj211d0j8q4b.jpg" width="400px">
@@ -27,7 +27,7 @@ use_math: true
 <img src="http://wx2.sinaimg.cn/large/41f56ddcly1fnzsu2qnu4j21580q7npa.jpg" width="600px">
 </center>
 
-#### 色温、色相与色调
+#### 2.色温、色相与色调
 色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此ACR虽然沿用了以开尔文来标度的色温，但是将蓝紫色设置为低色温，偏黄色设为高色温，其色温变化范围是2000K~50000K。
 
 
@@ -41,6 +41,6 @@ use_math: true
 <img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnzrgg1d2bj206a095mxj.jpg" width="150px">
 </center>
 
-### HSL色彩调节
+### 二、HSL色彩调节
 
-### 影调
+### 三、影调
