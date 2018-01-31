@@ -23,7 +23,7 @@ use_math: true
 </center>
 
 #### 色温、色相与色调
-色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，因此在ACR中虽然沿用了以开尔文标度的色温，但是将蓝紫色设置为低色温，偏黄色为高色温。
+色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此在ACR中虽然沿用了以开尔文标度的色温，但是将蓝紫色设置为低色温，偏黄色为高色温，其色温变化范围是2000K~50000K。
 
 
 <center>
