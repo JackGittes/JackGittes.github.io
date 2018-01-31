@@ -12,12 +12,18 @@ use_math: true
 #feature_image: "https://unsplash.it/1200/400?image=1048"
 #image: "https://unsplash.it/1200/400?image=1048"
 ---
-### 概要
-
 ### 前情回顾
+
 <center>
 <img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnztsk34yqj20ri0xi4qp.jpg" width="600px">
 </center>
+
+### 概要
+本节内容还是来自于李涛老师的《简单摄影后期高高手》视频课程，主要是关于HSL色彩调节和影调，此外我还补充了一些色彩知识。
+- 色彩预备知识
+- HSL色彩调节
+- 影调
+- 总结
 
 
 ### 一、色彩预备知识
@@ -58,7 +64,7 @@ use_math: true
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzxnwv0wuj215s0mmwg0.jpg" width="600px">
 </center>
 
-尽管这个分区是针对黑白片而言的，但同样也适用于有色彩的片子。按照这个分区法，当一张照片使用了三段和三段以内的分区时，成为短调片；使用了其中的五段分区时成为中调片；当使用了10或以上分区时则称为长调片。同样，根据片子主要色彩的分布位置，又可分为低调片、中调片和高调片。这样两两组合形成了九种影调，分布在一个矩阵当中。
+尽管这个分区是针对黑白片而言的，但同样也适用于有色彩的片子。按照这个分区法，当一张照片使用了三段和三段以内的分区时，称为短调片；使用了其中的五段分区时称为中调片；当使用了10个或以上分区时则称为长调片。同样，根据片子主要色彩的分布位置，又可分为低调片、中调片和高调片。这样两两组合形成了九种影调，外加一个全长调，构成了十种影调，如下图：
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzymafk0fj20ph0sbdhx.jpg" width="500px">
 </center>
