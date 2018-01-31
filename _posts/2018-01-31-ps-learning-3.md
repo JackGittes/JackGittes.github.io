@@ -82,3 +82,6 @@ use_math: true
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzyz0994fj21b40kl7qg.jpg" width="600px">
 </center>
+
+### 四、总结
+可以看到，ACR的调节功能非常方便快捷，通过ACR可以完成大概60%~70%的后期工作，但是ACR对片子的调整局限性也很强(局部调整能力有限、色彩明暗的控制有限)，更精细的修片还需要借助于Photoshop才能完成，而剩下的这30%左右后期工作也往往是一个片子的点睛之笔。后面有时间会陆续写一些更详细的后期笔记。
