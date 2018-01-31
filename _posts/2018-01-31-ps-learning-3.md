@@ -15,7 +15,7 @@ use_math: true
 ### 前情回顾
 
 <center>
-<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnztsk34yqj20ri0xi4qp.jpg" width="600px">
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnztsk34yqj20ri0xi4qp.jpg" width="500px">
 </center>
 
 ### 概要
@@ -66,7 +66,7 @@ use_math: true
 
 ### 三、影调
 
-影调是建立在风光摄影大师安塞尔·亚当斯提出的“影调分区理论”上，他把从白(明)到黑(暗)的灰阶划分成了11个区，每个区的定义按照下图所示。
+影调是建立在风光摄影大师安塞尔·亚当斯提出的“影调分区理论”基础上，他把从白(明)到黑(暗)的灰阶划分成了11个区，每个区的定义按照下图所示。
 
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzxnwv0wuj215s0mmwg0.jpg" width="600px">
