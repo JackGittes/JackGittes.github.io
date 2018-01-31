@@ -38,7 +38,7 @@ use_math: true
 <center>
 <img src="http://wx2.sinaimg.cn/large/41f56ddcly1fnzsu2qnu4j21580q7npa.jpg" width="600px">
 </center>
-如果还需要更加精细地局部色彩调节，只能进入Photoshop中借助蒙版等工具实现。
+如果还需要更加精细的局部色彩调节，只能进入Photoshop中借助蒙版等工具实现。
 
 #### 2.色温、色相与色调
 色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此ACR虽然沿用了以开尔文来标度的色温，但是将蓝紫色设置为低色温，偏黄色设为高色温，其色温变化范围是2000K~50000K。下图以国科大的学院二为例。
