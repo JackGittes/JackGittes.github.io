@@ -16,7 +16,7 @@ use_math: true
 
 ### 前情回顾
 <center>
-<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnztnc2krlj20sn0nv4ks.jpg" width="600px">
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnztsk34yqj20ri0xi4qp.jpg" width="600px">
 </center>
 
 
