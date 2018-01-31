@@ -24,7 +24,7 @@ use_math: true
 - HSL色彩调节
 - 影调
 - 总结
-
+写笔记的时候为了保持严谨性，每个新出现的词都尽量找到了严格的定义，确保几篇笔记的前后没有用词的歧义。
 
 ### 一、色彩预备知识
 
@@ -41,7 +41,7 @@ use_math: true
 如果还需要更加精细的局部色彩调节，只能进入Photoshop中借助蒙版等工具实现。
 
 #### 2.色温、色相与色调
-色温在维基百科中的定义为：The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此ACR虽然沿用了以开尔文来标度的色温，但是将蓝紫色设置为低色温，偏黄色设为高色温，其色温变化范围是2000K~50000K。下图以国科大的学院二为例。
+色温在维基百科中的定义为：“The color temperature of a light source is the temperature of an ideal black-body radiator that radiates light of a color comparable to that of the light source.”也即，光源的色温是与光源发出同样光辐射的理想黑体所具有的温度，所以色温的单位是“开尔文(K)”。但是黑体在低温时发出偏红光，而高温时包含了更多偏蓝紫色的光，这和人们对于色彩温度的直觉感受正好相反，而且用黑体辐射这种非常物理化的方式来记忆色温并不能对调色产生多少帮助。因此ACR虽然沿用了以开尔文来标度的色温，但是将蓝紫色设置为低色温，偏黄色设为高色温，其色温变化范围是2000K~50000K。下图以国科大的学院二为例。
 
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fnzra9qojhj21100n8b29.jpg" width="600px">
@@ -53,8 +53,14 @@ use_math: true
 <img src="http://wx4.sinaimg.cn/large/41f56ddcly1fnzrgg1d2bj206a095mxj.jpg" width="150px">
 </center>
 
+色调(Tone)的维基百科定义其实是被重定向到了“Lightness”上，“In colorimetry and color theory, lightness, also known as value or tone, is a representation of variation in the perception of a color or color space's brightness.”也即，在色彩学或者色彩理论中，明度亦被成为颜色值或者调性，是一种对色彩明亮程度变化在感知上表示。简单点说，就是某种颜色的亮暗可以说成是色调。在参考了其他一些关于色彩的表述和实际使用ACR色调调节以后，我感觉色调在ACR中可以理解成某种颜色在片子中的占比(这和维基的定义有相似之处)，表示了片子整体色彩的一种倾向性。例如把色调往青色打的时候，整个片子整体会发青，这和色温的调节有相似之处。我找了一张有明显色彩倾向性的火车窗外照片(偏蓝)为例：
+<center>
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fo011pwoyyj213z0pjkjl.jpg" width="500px">
+</center>
+
+在之后写色调分离的时候还会再次涉及色调的内容。
 ### 二、HSL色彩调节
-实际上，在前面介绍色彩知识的时候已经把HSL所能调节的部分给列举了。HSL是一种色彩模式(空间)，其中H(Hue)表示色相，S(Saturation)表示饱和度，L(Lighteness)表示明度。ACR的HSL调节中给了八种色相，分别是“红、橙、黄、绿、浅绿(青)、蓝、紫、洋红”，可以根据片子的色彩倾向，分别调节这几种色相的“色相值、饱和度、明度”。当直接调节每个色相的色相值时，颜色会发生偏移而转变成其他颜色，而调节“饱和度、明度”只会影响该种颜色的纯度和亮度，不会使一种颜色变成另一种颜色。以夜景下的国科大钟楼为例：
+实际上，在前面介绍色彩知识的时候已经把HSL所能调节的部分给列举了。HSL是一种色彩模式(空间)，其中H(Hue)表示色相，S(Saturation)表示饱和度，L(Lightness)表示明度。ACR的HSL调节中给了八种色相，分别是“红、橙、黄、绿、浅绿(青)、蓝、紫、洋红”，可以根据片子的色彩倾向，分别调节这几种色相的“色相值、饱和度、明度”。当直接调节每个色相的色相值时，颜色会发生偏移而转变成其他颜色，而调节“饱和度、明度”只会影响该种颜色的纯度和亮度，不会使一种颜色变成另一种颜色。以夜景下的国科大钟楼为例：
 
 
 <center>
