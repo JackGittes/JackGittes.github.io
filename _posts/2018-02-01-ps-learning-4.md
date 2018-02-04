@@ -13,7 +13,15 @@ use_math: true
 #image: "https://unsplash.it/1200/400?image=1048"
 ---
 ### 一、概要
-影调和色彩风格对于一张片子来说是很重要的，大多数后期初学者都是随性地调节，调到什么样子可以接受就调成什么样子。这样做其实是没有对片子的风格进行控制，而学习后期一个重要目标就是要对片子最终呈现出来的色彩风格进行有意识的控制。实际的修片流程一般是先给片子定一个大致的影调，定完调子之后再转入局部修饰当中。
+影调和色彩风格对于一张片子来说是很重要的，大多数后期初学者都是随性地调节，调到什么样子可以接受就调成什么样子。这样做其实是没有对片子的风格进行控制，而学习后期一个重要目标就是要对片子最终呈现出来的色彩风格进行有意识的控制。摄影师Bill Gekas在摄影作品中模仿世界名画的影调拍出了大量有古典风格的作品，如下图。
+
+
+<center>
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fo4y5ovvhnj215o0rm7bi.jpg" width="600px">
+</center>
+
+
+实际的修片流程一般是先给片子定一个大致的影调，定完调子之后再转入局部修饰当中。
 
 本节没有太详细地关于定调方法的内容，因为这是一个长期实践积累的过程。但是给出了一个非常适合初学者的快速定调子的方法——Lightroom预设文件。
 
@@ -25,19 +33,19 @@ Lightroom是Adobe公司出品的专门面向摄影师的软件。Lightroom可以
 下图是几个用LR进行快速风格化调色的例子。
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkeh42hj20xd0fh1kx.jpg" width="600px">
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fo4ydp281qj20wt0fk1kx.jpg" width="600px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkfaz2ij20yn0f91kx.jpg" width="600px">
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fo4ydptpovj20wt0fb1kx.jpg" width="600px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkfwcbpj20wt0fjne3.jpg" width="600px">
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fo4ydqg8akj20wt0fk19m.jpg" width="600px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkgnzxlj20wt0fix0u.jpg" width="600px">
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fo4ydrhtlrj20wt0fj4kv.jpg" width="600px">
 </center>
 
 给照片加LR预设文件看上去就像是使用了现在流行的很多美图软件的滤镜功能，但是使用预设文件并不等同于加滤镜，两者的原理和调整方式是不一样的。
