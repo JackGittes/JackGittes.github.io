@@ -25,19 +25,19 @@ Lightroom是Adobe公司出品的专门面向摄影师的软件。Lightroom可以
 下图是几个用LR进行快速风格化调色的例子。
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkeh42hj20xd0fh1kx.jpg" width="400px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkeh42hj20xd0fh1kx.jpg" width="600px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkfaz2ij20yn0f91kx.jpg" width="400px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkfaz2ij20yn0f91kx.jpg" width="600px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkfwcbpj20wt0fjne3.jpg" width="400px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkfwcbpj20wt0fjne3.jpg" width="600px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkgnzxlj20wt0fix0u.jpg" width="400px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo4xkgnzxlj20wt0fix0u.jpg" width="600px">
 </center>
 
 给照片加LR预设文件看上去就像是使用了现在流行的很多美图软件的滤镜功能，但是使用预设文件并不等同于加滤镜，两者的原理和调整方式是不一样的。
