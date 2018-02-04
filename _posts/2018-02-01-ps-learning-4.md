@@ -20,7 +20,17 @@ use_math: true
 <img src="http://wx2.sinaimg.cn/large/41f56ddcly1fo4z97wegxj20q80lse81.jpg" width="500px">
 </center>
 
-Bill Gekas的作品带有古典风格的原因就在于他借鉴了油画的调子。片子里面虽然没有任何油画的笔触，但却让人产生了欣赏油画的感受。修片也是如此，定一个大的调子方向非常重要，而且实际修片流程一般是先给片子定一个大致影调，定完调子之后再转入局部修饰当中。
+Bill Gekas的作品带有古典风格的原因就在于他借鉴了油画的调子。片子里面虽然没有任何油画的笔触，但却让人产生了欣赏油画的感受。修片也是如此，定一个大的调子方向非常重要，而且实际修片流程一般是先给片子定一个大致影调，定完调子之后再转入局部修饰当中。李涛老师总结出了一个语文阅读题答案风格的影调的作用，放个图片就不展开记录了：
+
+<center>
+<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fo4zy4tno5j210v0lr7wh.jpg" width="500px">
+</center>
+
+
+<center>
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fo4zy5w707j21ak0mv4qp.jpg" width="500px">
+</center>
+
 
 本节没有详细的定调方法的内容，因为这要牵涉到很多美术知识。但是这节给出了一个非常适合初学者的快速定调子的方法——Lightroom预设文件，同时强调了后期的一个观念——调性优先。
 
