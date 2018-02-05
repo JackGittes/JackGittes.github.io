@@ -20,10 +20,10 @@ use_math: true
 <img src="http://wx2.sinaimg.cn/large/41f56ddcly1fo4z97wegxj20q80lse81.jpg" width="500px">
 </center>
 
-Bill Gekas的作品带有古典风格的原因就在于他借鉴了油画的调子。片子里面虽然没有任何油画的笔触，但却让人产生了欣赏油画的感受。修片也是如此，定一个大的调子方向非常重要，而且实际修片流程一般是先给片子定一个大致影调，定完调子之后再转入局部修饰当中。李涛老师总结出了一个语文阅读题答案风格的影调的作用，放个图片就不展开记录了：
+Bill Gekas的作品带有古典风格的原因就在于他借鉴了油画的调子。片子里面虽然没有任何油画的笔触，但却让人产生了欣赏油画的感受。修片也是如此，定一个大的调子方向非常重要，而且实际修片流程一般是先给片子定一个大致影调，定完调子之后再转入局部修饰当中。下面是总结出的一个语文阅读题答案风格的影调的作用，放个图片就不展开记录了：
 
 <center>
-<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fo4zy4tno5j210v0lr7wh.jpg" width="500px">
+<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fo4zy4tno5j210v0lr7wh.jpg" width="400px">
 </center>
 
 
@@ -39,7 +39,7 @@ Lightroom是Adobe公司出品的专门面向摄影师的软件。Lightroom可以
 
 不过，虽然有了预设文件的帮助，大部分片子还是要做一些微调，所以关于白平衡、黑白场、清晰度、饱和度、层次感的知识仍然是非常必需的。
 
-下图是几个用LR进行快速风格化调色的例子。
+下面是我拍的几张照片用LR进行快速风格化调色的例子。
 
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcly1fo4ydp281qj20wt0fk1kx.jpg" width="600px">
