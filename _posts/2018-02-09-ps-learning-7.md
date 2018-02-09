@@ -1,6 +1,6 @@
 ---
 title: |
-      摄影后期笔记（七）：补充内容：PS中的合成技巧（一）
+      摄影后期笔记（七）：PS中的合成技巧（一）
 category: 摄影后期
 author: 赵明心
 excerpt: |
@@ -15,6 +15,10 @@ use_math: true
 
 <center>
 <img src="http://wx1.sinaimg.cn/large/41f56ddcly1fo99b7nukbj215m0i97wh.jpg" width="600px">
+</center>
+
+<center>
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1foagsfq6kqj21660j7npd.jpg" width="600px">
 </center>
 
 ### 一、概要
