@@ -18,7 +18,7 @@ use_math: true
 </center>
 
 <center>
-<img src="http://wx4.sinaimg.cn/large/41f56ddcly1foagsfq6kqj21660j7npd.jpg" width="600px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1foai2whf2jj218c0j14qp.jpg" width="600px">
 </center>
 
 ### 一、概要
