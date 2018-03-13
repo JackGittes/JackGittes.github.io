@@ -46,3 +46,7 @@ use_math: true
 - OnOne系列套装，提供了Perfect B&W Suite用来处理黑白片，并且内置了一些效果还不错的黑白预设。
 
 黑白调片技术重要，风格和思路更重要，段岳衡老师擅长中国古典写意风格的黑白风光片，作品不仅大气而且很有韵味。和段老师不同的是，Joel Tjintjelaar擅长拍摄明度风格的建筑，他拍的建筑作品远看有金属质感，而近看的时候会发现精微的建筑细节，也让人叹为观止。
+
+<center>
+<img src="http://wx2.sinaimg.cn/large/41f56ddcgy1fpbldj6j82j21jk0gjjvs.jpg" width="600px">
+</center>
