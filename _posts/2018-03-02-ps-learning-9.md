@@ -4,7 +4,7 @@ title: |
 category: 摄影后期
 author: 赵明心
 excerpt: |
-
+这节内容是关于黑白摄影与后期的，学好黑白摄影有助于理解影调控制这些东西，除了提升逼格，更重要的是增强后期调性调节的基础。
 use_math: true
 #feature_text: |
   ## The Pot Still
