@@ -41,6 +41,10 @@ use_math: true
 风光片和人像片在后期处理的时候一般都需要进行调色，但是两者的调色思路不一样。风光片为了营造环境的氛围，经常会在色彩上做大幅度的变化。下面列举几个我觉得非常好的风光片调色案例，这些例子选自500px和图虫网。
 
 <center>
+<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fr1uierntlj21240sr0xc.jpg" width="700px">
+</center>
+
+<center>
 <img src="http://wx1.sinaimg.cn/large/41f56ddcly1fr1u67yn3kj20z10nd0un.jpg" width="700px">
 </center>
 
