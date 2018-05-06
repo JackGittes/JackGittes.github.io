@@ -62,10 +62,6 @@ use_math: true
 
 调色虽难，但我感觉总结起来想调好色还是两个字，一曰“看”，二曰“练”。多看一些优秀的风光作品，分析他们的影调控制和色彩搭配，然后可以尝试在自己拍摄的类似题材上模拟他们的风格，还是按照之前的“先影调后色调、先整体后局部”的步骤，一点一点的模仿。最后放一张我拍的雾中的黄山做结尾，调色的时候我把雾、山和树木的颜色整体向绿色偏移，同时降低了饱和度，增加片子的朦胧感和冷的氛围。而且还稍微增加了一下雾气中央高光部分的亮度，加强明暗的对比，来表现隐藏在雾中的光。调色的技巧和思路都还都比较拙劣、初级，希望以后在模仿大师的作品中慢慢学习和进步。
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fr1u67yn3kj20z10nd0un.jpg" width="700px">
-</center>
-
-<center>
-<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fr1u41mr9pj218w0tvgr8.jpg" width="700px">
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fr1weg19wwj21h10k1wi6.jpg" width="700px">
 </center>
 
