@@ -25,11 +25,11 @@ use_math: true
 眩光和白边一般情况下对照片的整体效果影响不大，如果仅仅是在朋友圈或者网络分享的话，不会有太大问题，但如果需要放大或者打印，眩光和白边就是不得不处理的了。下面放两张图来说明眩光和白边在照片中的表现，其实眩光和白边根本不属于一类问题(从产生的原因、带来的影响到解决的方法都不同)，之所以放在一起说，是因为这两种负面现象是到现在为止我经常遇到的。
 
 <center>
-<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fr1tt3q2sjj21co0qin3c.jpg" width="600px">
+<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fr1tt3q2sjj21co0qin3c.jpg" width="700px">
 </center>
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fr1tt39wkrj21gd0r7wp9.jpg" width="600px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fr1tt39wkrj21gd0r7wp9.jpg" width="700px">
 </center>
 
 ### 三、景深合成、全景拼接、模拟长曝光
