@@ -48,7 +48,7 @@ use_math: true
 三元组损失被定义为：
 
 <center>
-<img src="http://wx1.sinaimg.cn/large/41f56ddcly1frebuivh4kj20qh03jaa3.jpg" width="300px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1frebuivh4kj20qh03jaa3.jpg" width="400px">
 </center>
 
 最小化三元组损失，在直观上就是“最小化同类样本之间的距离，最大化和异类样本的距离”。这也使得网络输出的向量能够直接用来度量样本间的相似性。这里面的$\alpha$是一个超参数，不能通过训练得到，需要人为设定。
