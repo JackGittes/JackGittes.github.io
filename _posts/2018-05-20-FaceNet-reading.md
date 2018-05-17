@@ -45,7 +45,9 @@ use_math: true
 
 计算一个三元组损失需要三个样本，其中一个样本被称为“Anchor”，另一个样本与“Anchor”来自同一个人脸，被称为“Positive(正样本)”，最后一个样本来自其他人的人脸，为“Negative(负样本)”。三元组损失就被定义为：
 
-$$L=\sum_{i}^{N}[||f(x_i^a)-f(x_i^p)||^2-||f(x_i^a)-f(x_i^n)||^2+\alpha]$$
+<center>
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1frebuivh4kj20qh03jaa3.jpg" width="300px">
+</center>
 
 最小化三元组损失，在直观上就是“最小化同类样本之间的距离，最大化和异类样本的距离”。这也使得网络输出的向量能够直接用来度量样本间的相似性。
 
