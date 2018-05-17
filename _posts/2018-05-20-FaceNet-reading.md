@@ -40,12 +40,13 @@ use_math: true
 我觉得作者在中间加一个L2归一化是为了加快收敛速度，再者可以让输出向量直接被映射到一个紧空间(n维有限闭区间)里。
 
 #### 3.2 三元组损失
+计算一个三元组损失需要三个样本，其中一个样本被称为“Anchor”，另一个样本与“Anchor”来自同一个人脸，被称为“Positive(正样本)”，最后一个样本来自其他人的人脸，为“Negative(负样本)”。
 
 <center>
 <img src="http://wx3.sinaimg.cn/large/41f56ddcgy1frebjv1834j21160auab9.jpg" width="500px">
 </center>
 
-计算一个三元组损失需要三个样本，其中一个样本被称为“Anchor”，另一个样本与“Anchor”来自同一个人脸，被称为“Positive(正样本)”，最后一个样本来自其他人的人脸，为“Negative(负样本)”。三元组损失就被定义为：
+三元组损失被定义为：
 
 <center>
 <img src="http://wx1.sinaimg.cn/large/41f56ddcly1frebuivh4kj20qh03jaa3.jpg" width="300px">
