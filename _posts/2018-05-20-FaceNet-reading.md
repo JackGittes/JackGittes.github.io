@@ -35,7 +35,7 @@ use_math: true
 <img src="http://wx2.sinaimg.cn/large/41f56ddcgy1frebjunlw0j21cp0cujtp.jpg" width="700px">
 </center>
 
-我觉得作者在中间加一个L2归一化的目的是为了加快收敛速度，再者可以让输出向量直接被映射到一个紧空间(n维有限闭区间)里。
+我觉得作者在中间加一个L2归一化是为了加快收敛速度，再者可以让输出向量直接被映射到一个紧空间(n维有限闭区间)里。
 
 #### 3.2 三元组损失
 
