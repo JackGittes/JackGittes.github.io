@@ -31,7 +31,18 @@ use_math: true
 
 #### 3.1 网络结构
 
+<center>
+<img src="http://wx2.sinaimg.cn/large/41f56ddcgy1frebjunlw0j21cp0cujtp.jpg" width="700px">
+</center>
+
+我觉得作者在中间加一个L2归一化的目的是为了加快收敛速度，再者可以让输出向量直接被映射到一个紧空间(n维有限闭区间)里。
+
 #### 3.2 三元组损失
+
+<center>
+<img src="http://wx3.sinaimg.cn/large/41f56ddcgy1frebjv1834j21160auab9.jpg" width="500px">
+</center>
+
 计算一个三元组损失需要三个样本，其中一个样本被称为“Anchor”，另一个样本与“Anchor”来自同一个人脸，被称为“Positive(正样本)”，最后一个样本来自其他人的人脸，为“Negative(负样本)”。三元组损失就被定义为：
 
 $$L=\sum_{i}^{N}[||f(x_i^a)-f(x_i^p)||^2-||f(x_i^a)-f(x_i^n)||^2+\alpha]$$
