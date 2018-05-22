@@ -1,6 +1,6 @@
 ---
 title: |
-      FaceNet:A Unified Embedding for Face Recognition and Clustering
+      FaceNet: A Unified Embedding for Face Recognition and Clustering
 category: 神经网络
 author: 赵明心
 excerpt: |
