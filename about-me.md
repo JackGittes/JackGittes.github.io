@@ -25,7 +25,7 @@ Additionally, I'm also looking farward to getting more friends in related resear
 
 ## Contact Me
 
-<span>{% include icon.html id="email" %}&nbsp;  zhaomx17@126.com</span>
+<span>{% include icon.html id="email" %}&nbsp;  zhaomingxin17@semi.ac.cn</span>
 
 <span>[{% include icon.html id="github" %}](https://github.com/JackGittes)
 &nbsp;&nbsp;[{% include icon.html id="zhihu" %}](https://www.zhihu.com/people/zhao-xin-mei-48/activities)</span>
