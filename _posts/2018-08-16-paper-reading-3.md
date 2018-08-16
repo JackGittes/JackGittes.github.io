@@ -20,6 +20,9 @@ AlexNet网络结构：
 - 五层卷积、三层全连接
 主要的配置和结构示意图在下面：
 
+<center>
+<img src="http://wx2.sinaimg.cn/large/41f56ddcly1fubvrp5x0bj20s508rab4.jpg" width="700px">
+</center>
 
 ### 二、网络性能提升的因素
 文章总结了能使AlexNet精度、训练速度以及泛化能力得到提升的主要因素，以下按重要性列举：
