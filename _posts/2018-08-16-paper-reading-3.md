@@ -44,7 +44,7 @@ Alex发现ReLU激活函数比普通的饱和型激活函数(Tanh，Sigmoid)收�
 这是Hinton提出的用来模拟某个生物神经元对周边神经元产生抑制效果的数学模型(未考证不深究，只解释其数学意义)，公式如下：
 
 <center>
-<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fucg55ylbsj20oe05cq3a.jpg" width="300px">
+<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fucg55ylbsj20oe05cq3a.jpg" width="400px">
 </center>
 
 这个公式看似比较复杂，但只要弄清中间的求和过程就很容易理解LRN是什么操作。求和指标范围max(0,i-n/2)到min(N-1,i+n/2)，式中N代表kernel map总数，例如前一层是只有1个channel的图像，使用了30个卷积核对前一层进行卷积，那么对应这一层就包含了30个channel，每个卷积核生成一个channel，也就是kernel map共30个。此时对第10个kernel求它在map坐标(7,7)处的LRN，并且规定n=4，那么求和范围就是max(0,10-4/2)=8到min(30-1,10+2)=12，也即需要对8/9/10/11/12 kernel生成channel的值进行平方加权求和。这里的超参数n相当于求和范围的半径，可以理解为局部响应归一的「局部化」范围，而包含min和max就是担心在边界处局部化的范围越界，需要在左右边界进行截断。
