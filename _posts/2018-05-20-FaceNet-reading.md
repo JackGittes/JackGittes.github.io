@@ -1,10 +1,10 @@
 ---
 title: |
-      FaceNet: A Unified Embedding for Face Recognition and Clustering
+      读论文：FaceNet
 category: 神经网络
 author: 赵明心
 excerpt: |
- 这是谷歌在2015年发表于CVPR的论文，文章提出了一种使用神经网络进行度量学习的方法，并将构造的神经网络用于人脸识别，在LFW数据集上达到了当时的state-of-the-art水平。
+ 这是谷歌在2015年发表于CVPR的论文，文章提出了一种使用神经网络进行度量学习的方法，并将构造的神经网络用于人脸识别，在LFW数据集上达到了当时的state-of-the-art水平。文章全名《FaceNet: A Unified Embedding for Face Recognition and Clustering》
 use_math: true
 #feature_text: |
   ## The Pot Still
