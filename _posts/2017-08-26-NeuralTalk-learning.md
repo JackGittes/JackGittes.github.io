@@ -1,5 +1,5 @@
 ---
-title: NeuralTalk —— 一个面向图像标注的神经网络模型的算法分析
+title: 读论文：NeuralTalk
 category: 神经网络
 author: 赵明心
 use_math: true
