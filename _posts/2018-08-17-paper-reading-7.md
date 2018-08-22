@@ -4,7 +4,7 @@ title: |
 category: 神经网络
 author: 赵明心
 excerpt: |
- 本文是2014年牛津大学和DeepMind公司发表用于在ImageNet上进行分类任务的神经网络。全名《Very Deep Convolutional Networks For Large-Scale Image Recognition》
+ 本文是用于目标检测的RCNN系列开山之作，由Ross Girshick提出，后来经改进出现了Fast R-CNN、Faster R-CNN等变体，在当年的目标检测VOC上都达到了SOTA的水平。
 use_math: true
 #feature_text: |
   ## The Pot Still
