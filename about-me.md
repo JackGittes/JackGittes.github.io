@@ -6,7 +6,7 @@ aside: false
 ---
 
 <center>
-<img src="http://wx4.sinaimg.cn/small/41f56ddcly1fitk7pj3eaj208i099q5d.jpg" width="150px">
+<img src="http://wx3.sinaimg.cn/mw690/007cgdjDly1ful7gtblfcj31kw1kwtnb.jpg" width="150px">
 </center>
 
 ## Resume
