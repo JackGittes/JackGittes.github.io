@@ -1,6 +1,6 @@
 ---
 title: |
-    神经网络「压缩、量化、加速」发展综述
+    压缩·量化·加速
 category: 网络压缩
 author: 赵明心
 excerpt: |
