@@ -1,6 +1,6 @@
 ---
 title: |
-    压缩·量化·加速
+    压缩 · 量化 · 加速
 category: 网络压缩
 author: 赵明心
 excerpt: |
