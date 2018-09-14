@@ -17,7 +17,7 @@ use_math: true
 
 紧凑型网络是针对移动平台和嵌入式设备设计的深度神经网络，它们一般都会采用一些简化技巧减少网络参数和计算量同时又不会对精度产生太大的影响。
 
-按照紧凑型网络的影响，主要选择了SqueezeNet/ShuffleNet/MobileNet/PeleeNet来总结这类网络设计中的常用技巧。
+按照紧凑型网络的影响，主要选择了SqueezeNet/ShuffleNet/MobileNet/PeleeNet来总结这类网络设计中的常用技巧。ShuffleNet、MobileNet已经有了相应的V2版本，V2版本将会在下一篇写。
 
 ### SqueezeNet
 
@@ -49,8 +49,16 @@ $$D_K  D_K  M N  D_F  D_F$$
 为了实现深度可分离，同时又不改变输出通道数N，MobileNet不对单个卷积核卷积结果进行加权求和，而是使用$M$个卷积核对每个输入通道单独进行卷积，同时保留卷积结果。之后再使用$N$组深度为$M$，大小为1$\times$1的卷积核对深度可分离卷积得到的$M$个通道进行合并。
 
 经过以上过程，把原来输入$M$通道、经过卷积和加权得到输出$N$通道的过程分解成了「深度可分离卷积 + 1$\times$1卷积合并输出」两个过程。后面的计算量为：
-$$D_K \dot D_K \dot M \dot D_F \dot D_F + M\dot N \dot D_F \dot D_F$$
+$$D_K D_K M D_F D_F + M N D_F D_F$$
 
+### ShuffleNet
+
+#### 设计思想
+
+
+### PeleeNet
+
+#### 设计思想
 
 
 
