@@ -26,7 +26,7 @@ SqueezeNet在2017年的ICLR上被提出，可以使AlexNet级别的网络压缩�
 
 - 使用1$\times$1卷积替代3$\times$3卷积，卷积过程的时间复杂度为$O(\frac{HW}{stride}d^2)$，其中$H$和$W$是输入feature map的长和宽，$stride$为卷积的步长，$d$为卷积窗口的宽度。一般情况下，输入feature map的尺寸和卷积步长是不能改变的，想要降低卷积的计算复杂度只能减小卷积窗口的大小。
 
-- 减少3$$times$3卷积核的输入通道数，3$times$3卷积的参数数量是$input channels \times number of filters \times 3*3$，在卷积核尺寸和个数不变的情况下，能改变的只有输入通道数。
+- 减少3$\times$3卷积核的输入通道数，3$\times$3卷积的参数数量是$input channels \times number of filters \times 3*3$，在卷积核尺寸和个数不变的情况下，能改变的只有输入通道数。
 
 - 推迟下采样，下采样可以通过增大卷积步长或者引入pooling层来实现，大步长或者加入pooling会使得feature map变小。一个很直观的想法是，大特征图会带来更高的分类精度，而在网络太靠前的层使用下采样会使后面大部分特征图变小，这个想法在何恺明等人的研究中也得到了证实。之前两个策略已经减少了参数，最后这个策略则是试图在参数受限的情况下恢复精度。
 
