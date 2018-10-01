@@ -15,7 +15,7 @@ use_math: true
 
 ### 1. Software Crisis
 
-Software crisis is a term used in CS for the difficulty of writing useful efficiect program in required time.
+Software crisis is a term used in CS for the difficulty of writing useful efficient program in required time.
 
 Cause of s.w crisis:
 - project running over budget
@@ -101,3 +101,15 @@ It is combination of waterfall model and iterative model
 Each phase in spiral model begins with design goal and ends with client reviewing.
 
 S.w is developed in a series of incremental releases.
+
+#### 6.2 When to use spiral model ?
+
+- When project is large
+- When releases are required to be frequent
+- When risk and cost evalution is important
+- When requirements are unclear and complete
+- When changes may require at any time
+- For medium to high risk project
+
+Adv:
+- 
