@@ -48,3 +48,8 @@ SkipNet把根据前一层的处理结果来动态决定下一层往何处跳转�
 ### 三、总结
 
 实现自适应有很多种方法，但一般都需要利用输出信息，然后根据输出信息来进行动态调节以实现自适应。在电路系统当中，有时候通过把输出信号引回输入端也可以实现反馈作用下的自适应。而在神经网络里，每一层的输出信息都是堆叠在一起的张量特征图，不管是对这些特征图做简单的加法或是其他运算，似乎都至少是O(n)级别复杂度。也就是说，自适应调节层与层之间的跳转关系并非不可以，但是如何更加高效地利用前一层的输出信息会是一个关键。
+
+### 四、参考文献
+
+[1] Wang X, Yu F, Dou Z Y, et al. Skipnet: Learning dynamic routing in convolutional networks[J]. arXiv preprint arXiv:1711.09485, 2017.
+[2] Belongie A V S. Convolutional Networks with Adaptive Inference Graphs[J].
