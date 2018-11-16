@@ -52,4 +52,5 @@ SkipNet把根据前一层的处理结果来动态决定下一层往何处跳转�
 ### 四、参考文献
 
 [1] Wang X, Yu F, Dou Z Y, et al. Skipnet: Learning dynamic routing in convolutional networks[J]. arXiv preprint arXiv:1711.09485, 2017.
+
 [2] Belongie A V S. Convolutional Networks with Adaptive Inference Graphs[J].
