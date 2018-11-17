@@ -51,7 +51,7 @@ ConvNet-AIG也把层间跳跃的问题归结为在每个层上面增加一个Gat
 
 这里把全连接网络的输入向量获得方法写一下：
 
-$$z_c=\frac{1}{H\timesW}\sum_{i=1}^{H}\sum_{j=1}^{W}x_{i,j,c}$$
+$$z_c=\frac{1}{H\times W}\sum_{i=1}^{H}\sum_{j=1}^{W}x_{i,j,c}$$
 
 ### 三、总结
 
