@@ -43,11 +43,15 @@ SkipNet把根据前一层的处理结果来动态决定下一层往何处跳转�
 </center>
 
 #### 2.2 ConvNet-AIG
-
+ConvNet-AIG也把层间跳跃的问题归结为在每个层上面增加一个Gate，而且和SkipNet相似的是，ConvNet-AIG使用全局池化的方式，获得一个大小为每个Layer输出通道数量的向量，之后把该向量输入到一个带ReLU激活的全连接网络，这个两层的全连接网络输出一个2维向量，用来决定是否进行跳层。
 
 <center>
-<img src="http://wx3.sinaimg.cn/large/41f56ddcly1fxa69a6579g20a00670vb.gif" width="500px">
+<img src="http://wx4.sinaimg.cn/large/41f56ddcly1fxa4sbahwbj213o0aswfj.jpg" width="700px">
 </center>
+
+这里把全连接网络的输入向量获得方法写一下：
+
+$$z_c=\frac{1}{H\timesW}\sum_{i=1}^{H}\sum_{j=1}^{W}x_{i,j,c}$$
 
 ### 三、总结
 
