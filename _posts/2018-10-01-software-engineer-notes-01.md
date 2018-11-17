@@ -113,3 +113,14 @@ S.w is developed in a series of incremental releases.
 
 Adv:
 - 
+
+
+### 8.ISO-9001
+
+### 9.Process Model
+
+#### 9.1 Linear Process Model and Iterative Process Model
+
+Linear Process Flow : communication-> planning -> modeling -> construction(coding & test) -> deployment
+
+Iterative Process Flow :  
