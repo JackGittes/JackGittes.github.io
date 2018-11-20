@@ -46,7 +46,7 @@ use_math: true
 
 
 
-#### INCREMENTAL NETWORK QUANTIZATION: TOWARDS LOSSLESS CNNS WITH LOW-PRECISION WEIGHTS
+#### Incremental Network Quantization: Towards Lossless CNNs With Low-Precision Weights
 
 ##### 1 算法概况
 
