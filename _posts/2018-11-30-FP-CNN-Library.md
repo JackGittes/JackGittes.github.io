@@ -1,3 +1,18 @@
+---
+title: |
+      Fast CPU-based Multicore Parallel Fixed-point CNN Simulation Library
+category: 神经网络
+author: 赵明心
+excerpt: |
+ 为了加速利用MATLAB定点数对CNN进行仿真的速度，编写了一个类TensorFlow风格的CNN定点数仿真库函数。MATLAB定点数工具箱所带的fi对象虽然可以创建特定格式的定点数，但很多MATLAB内置函数却不支持fi对象的运算，例如卷积网络中常用的卷积操作，同时fi对象的矩阵运算默认也是不能多核并行的，为了提高定点数仿真速度，编写了这个库。本文是Github相关项目的README文档。
+use_math: true
+#feature_text: |
+  ## The Pot Still
+#  The modern pot still is a descendant of the alembic, an earlier distillation device
+#feature_image: "https://unsplash.it/1200/400?image=1048"
+#image: "https://unsplash.it/1200/400?image=1048"
+---
+
 ### Fast CPU-based Multicore Parallel Fixed-point CNN Simulation Library
 
 The motivation for this project is creating a general library which can simulate a CNN with fixed-point operations fast. Since **Python** is poor in fixed-point calculation support, I try to write the project in MATLAB thoroughly. While the fi object in MATLAB can conviniently express fixed-point(FP) operations, there are still many functions in MATLAB that don't support fi. So I have to rewrite a lot of basic functions such as conv2d etc step by step.
