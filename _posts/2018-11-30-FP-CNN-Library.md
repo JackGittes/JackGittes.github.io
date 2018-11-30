@@ -49,7 +49,7 @@ Several fundamental functions have been completed and carried on in a parallel w
 - The acceleration mainly due to the **Im2col - Reshape - GEMM - Reshape - Output** procedure as below:
 
 <center>
-<img src="https://github.com/JackGittes/FixedCNN/blob/master/Doc/img/details.png" width="700px">
+<img src="http://wx1.sinaimg.cn/large/41f56ddcly1fxn16mn5bhj21e90b3ab3.jpg" width="700px">
 </center>
 
 ### Requirement
