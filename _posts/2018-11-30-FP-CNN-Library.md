@@ -20,7 +20,6 @@ The motivation for this project is creating a general library which can simulate
 ### Project Progress
 Several fundamental functions have been completed and carried on in a parallel way as possible. The comprehensive review of all functions as below:
 
-<center>
 
 |        **Type**         |       **Status**     |        **Description**          |
 |:-----------------------:|:--------------------:|:-------------------------------:|
@@ -32,7 +31,6 @@ Several fundamental functions have been completed and carried on in a parallel w
 | Softmax                 |     Uncompleted      |        Working on it            |
 | Pointwise Conv          |      Completed       |  Can be replaced by Conv2d**    |
 
-</center>
 
 ##### * Now you can use self-defined pooling function other than MAX/AVG. Before applying customed pooling function, you should add the function name and its definition in the Pool_Type register table.
 
@@ -54,7 +52,7 @@ Several fundamental functions have been completed and carried on in a parallel w
 - The acceleration mainly due to the **Im2col - Reshape - GEMM - Reshape - Output** procedure as below:
 
 <center>
-<img src="https://github.com/JackGittes/FixedCNN/blob/master/Doc/img/details.png" width=700>
+<img src="https://github.com/JackGittes/FixedCNN/blob/master/Doc/img/details.png" width="700px">
 </center>
 
 ### Requirement
