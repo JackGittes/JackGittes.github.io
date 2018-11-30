@@ -13,7 +13,7 @@ use_math: true
 #image: "https://unsplash.it/1200/400?image=1048"
 ---
 
-### Fast CPU-based Multicore Parallel Fixed-point CNN Simulation Library
+### Introduction
 
 The motivation for this project is creating a general library which can simulate a CNN with fixed-point operations fast. Since **Python** is poor in fixed-point calculation support, I try to write the project in MATLAB thoroughly. While the fi object in MATLAB can conviniently express fixed-point(FP) operations, there are still many functions in MATLAB that don't support fi. So I have to rewrite a lot of basic functions such as conv2d etc step by step.
 
@@ -45,8 +45,8 @@ Several fundamental functions have been completed and carried on in a parallel w
 - Conv2d calculates 2d convolution of the input tensor, PL is L3, the input and output format are TF-compatible.
 - Pooling calculates 2d pooling of the input tensor, PL is L3, while pooling function doesn't support 3d pooling like TF.
 - Up to present, a standard ConvNet like MobileNet without ResBlock can run on this library. The MobileNet which has 28 layers with depthwise and pointwise convolution consumes about 3~5 minutes to forward once on a 224×224×3 input image @Intel Core i5-8400 CPU with 16.0 GB RAM.
-- NOTE: If your MATLAB support parallel computing with **Parallel Computation Toolbox (PCT)**, the algorithm will become faster. According to my test, MobileNet will save about 65% time of non-parallel version, which means it takes 70 seconds to forward total 28 layers once. More cores you have on your PC, faster it runs.
-- The acceleration mainly due to the **Im2col - Reshape - GEMM - Reshape - Output** procedure as below:
+- NOTE: If your MATLAB supports parallel computing with **Parallel Computing Toolbox (PCT)**, the algorithm will become faster. According to my test, fully parallel MobileNet will save about 65% time of non-parallel version, which means it takes 70 seconds to forward total 28 layers once. More cores you have on your PC, faster it runs.
+- The acceleration mainly benefits from the **Im2col - Reshape - GEMM - Reshape - Output** procedure as below:
 
 <center>
 <img src="http://wx1.sinaimg.cn/large/41f56ddcly1fxq2je7sidg21fm0c0aaa.gif" width="700px">
