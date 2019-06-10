@@ -4,7 +4,7 @@ title: |
 category: 学习笔记
 author: 赵明心
 excerpt: |
-    西安交通大学计算机网络原理公开课笔记
+ 西安交通大学计算机网络原理公开课笔记
 use_math: true
 #feature_text: |
   ## The Pot Still
@@ -12,6 +12,7 @@ use_math: true
 #feature_image: "https://unsplash.it/1200/400?image=1048"
 #image: "https://unsplash.it/1200/400?image=1048"
 ---
+
 
 作者：赵明心	日期：2019/02/10
 
