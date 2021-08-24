@@ -20,7 +20,7 @@ aside: false
 - 2020/10 -- 2021/05, Sensetime Research, Researcher (intern)
   - In Sensetime research, I worked on building a flexible quantization framework to bridge various algorithms and hardware backends.
 
-## Background  
+## Education  
 - 2017/09 -- Present, Ph.D. candidate in EE at Institute of Semiconductors, CAS, Beijing, China
 - 2013/09 -- 2017/06, Undergraduate student in Applied Physics at University of Science and Technology of China, Hefei, Anhui, China
 
