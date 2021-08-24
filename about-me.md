@@ -38,6 +38,9 @@ aside: false
 
 [3] Zhao M ,  Zheng X ,  Ning K , et al. A verification method for array-based vision chip using a fixed-point neural network simulation tool[C]// 2020 IEEE 11th Latin American Symposium on Circuits & Systems (LASCAS). IEEE, 2020.
 
+[4] Zhao M ,  Cheng L ,  Yang X , et al. TBC-Net: A real-time detector for infrared small target detection using semantic constraint[J].  2019.
+
+
 
 ## Contact Me
 
