@@ -14,10 +14,10 @@ aside: false
 
 ## Internships
 
-- 2021/05 -- Present, Huawei 2012 Lab, Technology Research Engineer (intern)
+- 2021/05 -- Present, **Huawei 2012 Lab**, Technology Research Engineer (intern)
   - In 2012 Lab, I am working on the auto-tensorization technique, aiming at compiling fine-grained user code to tensor-level hardware primitives via polyhedral model.
 
-- 2020/10 -- 2021/05, Sensetime Research, Researcher (intern)
+- 2020/10 -- 2021/05, **Sensetime Research**, Researcher (intern)
   - In Sensetime research, I worked on building a flexible quantization framework to bridge various algorithms and hardware backends.
 
 ## Education  
@@ -29,6 +29,15 @@ aside: false
 - Digital Integrated Circuits Design
 - Deep Learning
 - Computer Vision
+
+## Publications
+
+[1] Zhao M ,  K  Ning,  Yu S , et al. Quantizing Oriented Object Detection Network via Outlier-Aware Quantization and IoU Approximation[J]. IEEE Signal Processing Letters, 2020, 27:1914-1918.
+
+[2] Zhao M ,  Peng J ,  Yu S , et al. Exploring Structural Sparsity in CNN via Selective Penalty[J]. IEEE Transactions on Circuits and Systems for Video Technology, 2021, PP(99):1-1.
+
+[3] Zhao M ,  Zheng X ,  Ning K , et al. A verification method for array-based vision chip using a fixed-point neural network simulation tool[C]// 2020 IEEE 11th Latin American Symposium on Circuits & Systems (LASCAS). IEEE, 2020.
+
 
 ## Contact Me
 
