@@ -22,8 +22,9 @@ Interships
 Education
 ======
 - 2017/09 - Present, Institute of Semiconductors, CAS, Beijing, Ph.D. Candidate
-  - In ISCAS, he worked with his colleagues to develop edge computing vision chips, targeting ultra-low power near-sensor visual information proccessing.
+  - In ISCAS, Zhao is instructed by Prof. Nanjian Wu who leads a team developing vision chips. The vision chip targets ultra-low power near-sensor visual information processing. Zhao cooperates with his colleagues to deploy convolutional neural networks on the vision chip by low-bitwith quantization and structured pruning.
 
 - 2013/09 - 2017/07, University of Science and Technology of China, Hefei, Anhui, China, Bachelor
+  - In USTC, Zhao is leads
 
 
