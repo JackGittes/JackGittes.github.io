@@ -10,7 +10,7 @@ redirect_from:
 
 Bio
 ======
-Mingxin Zhao is a currently Ph.D. candidate in EE at Institute of Semiconductors, CAS, Beijing, China. His research interests include machine vision in egde computing scenarios, deep learning compression, hardware-software co-design, and compiler techniques in domain specific architectures.
+Mingxin Zhao is a currently Ph.D. candidate in EE at Institute of Semiconductors, CAS, Beijing, China. His research interests include machine vision in egde computing scenarios, deep learning model compression, hardware-software co-design, and compiler techniques on domain specific architectures.
 
 Interships
 ======
