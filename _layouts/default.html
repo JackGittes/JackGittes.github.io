@@ -1,36 +1,31 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-	<head>
-		<!-- General meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: compress
+---
 
-		{% if page.indexing == false %}
-			<meta name="robots" content="noindex">
-		{% endif %}
+{% include base_path %}
 
-		{% if page.collectionpage %}
-			{% seo title=false %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
-			<meta property="og:title" content="{{ collectiondata.title }}">
-			<meta name="description" content="{{ collectiondata.description }}">
-			<meta property="og:description" content="{{ collectiondata.description }}">
-		{% else %}
-			{% seo %}
-		{% endif %}
+  <body>
 
-    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-		{% include site-favicons.html %}
-	</head>
-	<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-		{% include site-icons.svg %}
+    {{ content }}
 
-		{{ content }}
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-        {% if page.use_math %}
-	    	{% include mathjax_support.html %}
-	    {% endif %}
-	</body>
+    {% include scripts.html %}
+
+  </body>
 </html>
