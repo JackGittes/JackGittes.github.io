@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Undergraduate student in Mathematics, University of Science and Technology of China, 2010 - 2012
+* Undergraduate student in Physics, University of Science and Technology of China, 2013 - 2017
+* Ph.D in EE, Institute of Semiconductors (CAS), 2017-2022
 
 Work experience
 ======
@@ -29,23 +29,14 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* C/C++
+* Linux
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
