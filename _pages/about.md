@@ -1,30 +1,24 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Mingxin Zhao"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
-Bio
-======
-Mingxin Zhao is a currently Ph.D. candidate in EE at Institute of Semiconductors, CAS, Beijing, China. His research interests include machine vision in egde computing scenarios, deep learning model compression, hardware-software co-design, and compiler techniques on domain specific architectures.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Internships
-======
-- 2021/05 - Present, **Huawei 2012 Lab**, Technology Research Engineer (intern)
-  - In 2012 lab, he is working on the auto-tensorization compiler techniques, aiming at compiling fine-grained user code to tensor-level hardware primitives via polyhedral modeling.
-- 2020/10 - 2020/07, **SenseTime Research**, Researcher (intern)
-  - In SenseTime research, he worked on building a flexible deep learning model quantization framework for bridging various quantization algorithms and hardware backends.
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Education
-======
-- 2017/09 - Present, Institute of Semiconductors, CAS, Beijing, Ph.D. Candidate
-  - In ISCAS, Zhao is instructed by Prof. Nanjian Wu who leads a team developing vision chips. The vision chip targets ultra-low power near-sensor visual information processing. Zhao cooperates with his colleagues to deploy convolutional neural networks on the vision chip by low-bitwith quantization and structured pruning.
-
-- 2013/09 - 2017/07, University of Science and Technology of China, Hefei, Anhui, China, Bachelor
-  - In USTC, Zhao majored in applied physics that delivers the beauty and simplicity of the nature, encouraging him to turn his interest to engineering area.
-
-
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
