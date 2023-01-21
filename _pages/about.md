@@ -22,11 +22,11 @@ Internships
 
 Education
 ======
-- 2017/09 - Present, Institute of Semiconductors (CAS), **Ph.D. Candidate**
+- 2017/09 - 2022/06, Institute of Semiconductors (CAS), **Ph.D.**
   - In ISCAS, I was instructed by Prof. Nanjian Wu who leads a team developing vision chips. The vision chip targets ultra-low power near-sensor visual information processing. I cooperated with my colleagues to deploy convolutional neural networks on the vision chip by low-bitwith quantization and structured pruning.
   - The vision chip I worked on is a SIMD-style image processor controlled by a RISC scalar MPU. All processing instructions are handled by a PE array with 256 PEs. The adjacent pixels covered by a convolution kernel are processed by corresponding PEs. The adjacent PEs (typically 3 to 5) are, of course, have dedicated data paths to fit the accumulation requirement. This data flow is quite different from traditional **im2col** method as it directly consumes image data spatially without any layout reorder.   
 
 - 2013/09 - 2017/07, University of Science and Technology of China, **Bachelor**
-  - In USTC, I majored in Applied Physics.
+  - In USTC, I majored in Applied Physics and got fundamental trainings on logical thinking and mathematical modelling.
 
 
