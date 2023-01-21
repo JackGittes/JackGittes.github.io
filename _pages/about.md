@@ -10,7 +10,7 @@ redirect_from:
 
 Bio
 ======
-Mingxin Zhao is a currently Ph.D. candidate in EE at Institute of Semiconductors, CAS, Beijing, China. His research interests include machine vision in egde computing scenarios, deep learning model compression, hardware-software co-design, and compiler techniques on domain specific architectures.
+Mingxin Zhao is currently a senior software engineer in T-Head Semiconductor, who is focusing on CPU simulator, compiler, and other toolchains targeting RISC-V architecture. Before this, he achieved his Ph.D. degree at Institute of Semiconductors (CAS), during which his research interests included machine vision on edge computing chips, deep neural network compression, and software-hardware co-design.
 
 Internships
 ======
@@ -21,10 +21,12 @@ Internships
 
 Education
 ======
-- 2017/09 - Present, Institute of Semiconductors, CAS, Beijing, Ph.D. Candidate
+- 2017/09 - Present, Institute of Semiconductors (CAS), **Ph.D. Candidate**
   - In ISCAS, Zhao is instructed by Prof. Nanjian Wu who leads a team developing vision chips. The vision chip targets ultra-low power near-sensor visual information processing. Zhao cooperates with his colleagues to deploy convolutional neural networks on the vision chip by low-bitwith quantization and structured pruning.
 
-- 2013/09 - 2017/07, University of Science and Technology of China, Hefei, Anhui, China, Bachelor
-  - In USTC, Zhao majored in applied physics that delivers the beauty and simplicity of the nature, encouraging him to turn his interest to engineering area.
+- 2013/09 - 2017/07, University of Science and Technology of China, **Bachelor**
+  - In USTC, Zhao majored in applied physics.
 
+- 2010/09 - 2012/10, University of Science and Technology of China, **Dropping out**
+  - Mathematics
 
